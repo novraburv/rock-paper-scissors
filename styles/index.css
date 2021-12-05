@@ -1,0 +1,35 @@
+* {
+	outline: red dashed 1px;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+body {
+	text-align: center;
+}
+
+.container {
+	display:  flex;
+	flex-flow: column nowrap;
+	align-items: center;
+
+	height: calc(100vh - 120px);
+}
+
+.options {
+	display: flex;
+	flex-flow: row nowrap;
+	gap: 10px;
+}
+
+.btn {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 10px;
+
+	padding: 1em;
+}
+
+.btn p {
+	margin: 0;
+}
