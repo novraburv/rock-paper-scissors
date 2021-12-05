@@ -24,20 +24,21 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-function game() {
-    let pcount = 0;
-    let cpucount = 0;
-    for (round = 0; round < 5; round++) {
-        let user = prompt("choose rock, paper, or scisors");
-        let result = playRound(user, computerPlay());
-        if (result === 'win') {
-            pcount++;
-        } else if (result === "lose") {
-            cpucount++;
-        } else {
-            pcount++;
-            cpucount++;
-        }
-    }
-    return `player: ${pcount}, computer: ${cpucount}`;
-}
+// function game() {
+//     let pcount = 0;
+//     let cpucount = 0;
+//     for (round = 0; round < 5; round++) {
+//         let user = prompt("choose rock, paper, or scisors");
+//         let result = playRound(user, computerPlay());
+//         if (result === 'win') {
+//             pcount++;
+//         } else if (result === "lose") {
+//             cpucount++;
+//         } else {
+//             pcount++;
+//             cpucount++;
+//         }
+//     }
+//     return `player: ${pcount}, computer: ${cpucount}`;
+// }
+
