@@ -10,7 +10,6 @@ function playRound(playerSelection, computerSelection) {
     Rolls a round of the game.
     Compares player's selection with computers.
     */
-   console.log(`player: ${playerSelection}, computer: ${computerSelection}`)
     if (playerSelection === computerSelection) {
         return 'tie';
     } else if (
