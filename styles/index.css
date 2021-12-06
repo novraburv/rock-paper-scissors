@@ -1,5 +1,5 @@
 * {
-	outline: red dashed 1px;
+	/*outline: red dashed 1px;*/
 	font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
@@ -13,14 +13,14 @@ body {
 	display:  flex;
 	flex-flow: column nowrap;
 	align-items: center;
-
+	gap: 10px;
 }
 
 .options,
 .resultScores {
 	display: flex;
 	flex-flow: row nowrap;
-	gap: 10px;
+	gap: 25px;
 }
 
 .container {	
@@ -34,8 +34,6 @@ body {
 }
 
 .btn {
-	gap: 10px;
-
 	padding: 1em;
 }
 
@@ -49,6 +47,15 @@ body {
 	align-items: center;
 	gap: 10px;
 	flex-grow: 1;
+}
+
+.resultText {
+	min-width: 200px;
+	height: 3em;
+}
+
+.resultBox {
+	width: 50px;
 }
 
 .resultId {
