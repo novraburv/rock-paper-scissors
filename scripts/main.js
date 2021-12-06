@@ -56,7 +56,12 @@ function gameHandler() {
     }
 
     if (pLife.innerText === "0" || cLife.innerText === "0") button.forEach(btn => {
-        btn.removeEventListener('click', gameHandler)
+        btn.removeEventListener('click', gameHandler);
+        if (Number(pLife.innerText) < Number(cLife.innerText)) {
+            text.innerText = "You die! I'm so sorry"
+        } else {
+            text.innerText = "You won the battle! Congratulations!"
+        }
     })
 }
 
