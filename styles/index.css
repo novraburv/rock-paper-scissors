@@ -1,0 +1,63 @@
+* {
+	/*outline: red dashed 1px;*/
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+	text-align: center;
+}
+
+.container,
+.btn,
+.resultBox {
+	display:  flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 10px;
+}
+
+.options,
+.resultScores {
+	display: flex;
+	flex-flow: row nowrap;
+	gap: 25px;
+}
+
+.container {	
+	height: calc(100vh - 120px);
+}
+
+.desc {
+	font-family: 'Merriwheather', Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+.btn {
+	padding: 1em;
+}
+
+.btn p {
+	margin: 0;
+}
+
+.result {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 10px;
+	flex-grow: 1;
+}
+
+.resultText {
+	min-width: 200px;
+	height: 3em;
+}
+
+.resultBox {
+	width: 50px;
+}
+
+.resultId {
+	font-weight: bold;
+}
